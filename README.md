@@ -1,2 +1,1 @@
-# Livestock-Monitoring
-Livestock Monitoring System using a computer vision model with behavioural analysis
+LiveStock Monitoring System with Behavioural Analysis
