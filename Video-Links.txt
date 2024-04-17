@@ -1,0 +1,5 @@
+YOLOv5 English Countryside Detection - https://youtu.be/er9Kr9Sf_Vo
+
+YOLOv5 Cattle Detection Dornick - https://youtu.be/k21Ii_NOPRA
+
+YOLOv7 Cattle Detection (2 Epochs Trained) - https://youtu.be/y1Vt01Q1fA0
