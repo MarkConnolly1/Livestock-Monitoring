@@ -21,8 +21,7 @@ To train a YOLO model using your dataset, follow this command template. Substitu
 
 - python train.py --img 640 --batch (ENTER BATCH SIZE - 16 IS RECOMMENDED) --epochs (ENTER NUMBER OF EPOCHS YOU WANT TO TRAIN) --data (LINK TO YOUR DATA.YAML FILE) --weights yolov5s.pt
 
-  ![How To Train Your Model](Images/Screenshot 2024-03-25 143957.png
-)
+  ![How To Train Your Model](Images/Screenshot 2024-03-25 143957.png)
 
 # How To Detect
 Once the model is successfully trained, you can apply the trained weights to detect objects in new images or videos. To do this, follow the detect command below.
