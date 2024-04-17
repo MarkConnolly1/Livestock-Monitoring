@@ -33,6 +33,7 @@ Once the model is successfully trained, you can apply the trained weights to det
 
 -python detect.py --weights best.pt --img 640 --conf 0.25 --source (/path/to/images_or_video)
 ![Screenshot 2024-04-16 140012](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/6211afe9-7333-458c-8ff4-85af7a7023c0)
+![Screenshot 2024-04-12 104410](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/0f169071-4416-44a6-9ab0-c43478faee32)
 ![Screenshot 2024-04-16 142958](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/cab8721e-53c1-4b0d-a08e-e003a65beec6)
 ![Screenshot 2024-04-16 143017](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/2c61d4c5-e1b1-499e-9459-b875d96b29be)
 
