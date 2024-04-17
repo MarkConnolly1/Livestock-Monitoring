@@ -20,11 +20,8 @@ I am currently working on my final year project, where I am applying Computer Vi
 To train a YOLO model using your dataset, follow this command template. Substitute the placeholders with the specific location of your dataset, the model weights file you want to use, the desired number of training epochs.
 
 - python train.py --img 640 --batch (ENTER BATCH SIZE - 16 IS RECOMMENDED) --epochs (ENTER NUMBER OF EPOCHS YOU WANT TO TRAIN) --data (LINK TO YOUR DATA.YAML FILE) --weights yolov5s.pt
-
-- ![Screenshot 2024-03-26 155036](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/c21814eb-e7fd-47eb-a5ad-511a5aca99ea)
-
 ![Screenshot 2024-03-26 012900](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/8b07f791-789e-4e75-b53f-220ea33a605d)
-
+![Screenshot 2024-03-26 155036](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/c21814eb-e7fd-47eb-a5ad-511a5aca99ea)
 ![Screenshot 2024-03-25 143957](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/2f9ab945-13ba-4877-97ac-bc95f8eaa0cd)
 
 
