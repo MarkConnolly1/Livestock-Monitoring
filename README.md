@@ -15,3 +15,8 @@ I am currently working on my final year project, where I am applying Computer Vi
   
 - %pip install -r requirements.txt
   
+# How To Train Your Model
+
+To train a YOLO model using your dataset, follow this command template. Substitute the placeholders with the specific location of your dataset, the model weights file you want to use, the desired number of training epochs.
+
+- python train.py --img 640 --batch (ENTER BATCH SIZE - 16 IS RECOMMENDED) --epochs (ENTER NUMBER OF EPOCHS YOU WANT TO TRAIN) --data (LINK TO YOUR DATA.YAML FILE) --weights yolov5s.pt
