@@ -8,6 +8,10 @@ Conda Enviroment
 Python 3.8 or later
 
 Clone the YOLOv5 Repository
-## !git clone https://github.com/ultralytics/yolov5
-## %cd yolov5
-## %pip install -r requirements.txt
+
+- !git clone https://github.com/ultralytics/yolov5
+  
+- %cd yolov5
+  
+- %pip install -r requirements.txt
+  
