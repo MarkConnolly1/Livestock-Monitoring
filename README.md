@@ -2,6 +2,9 @@
 
 I am currently working on my final year project, where I am applying Computer Vision and training You Only Look Once (YOLO) models to monitor livestock and analyse their behaviour. The objective is to develop a reliable system capable of detecting various behaviours in different environments to assist in better management and care. I am training and evaluating the performance and accuracy of two versions of the YOLO object detection models: YOLOv5 and YOLOv7. This system aims to provide insights into livestock health and behaviour, facilitating proactive management and improved welfare practices.
 
+# YOLO (You Only Look Once)
+The YOLO (You Only Look Once) model is a powerful deep learning algorithm used for object detection in images and videos. Unlike traditional object detection systems which apply a classifier to different parts of an image multiple times, YOLO frames object detection as a single regression problem, straight from image pixels to bounding box coordinates and class probabilities. This approach allows YOLO to detect objects in images in real-time, achieving high speeds and accuracy with a single forward pass of the network.
+
 # Setup/What you will need
 - Conda Enviroment
 
