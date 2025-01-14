@@ -56,12 +56,12 @@ The project evaluated the performance of YOLOv5 and YOLOv7 models for livestock 
 Model Comparisons:
 - YOLOv5s (30 epochs):
 
-Achieved an mAP of 0.952, indicating high detection accuracy.
+  - Achieved an mAP of 0.952, indicating high detection accuracy.
 Precision and recall improved significantly during training, with the F1 score peaking at 0.93.
 Demonstrated robust and reliable performance for real-time livestock detection.
 YOLOv5m (5 epochs):
 
-mAP improved from 0.46 (epoch 1) to 0.89 (epoch 5).
+  - mAP improved from 0.46 (epoch 1) to 0.89 (epoch 5).
 The F1 score reached 0.85, balancing precision and recall effectively.
 Showed quick learning but required fewer resources compared to YOLOv5l.
 
@@ -70,7 +70,7 @@ Limited to one epoch due to computational constraints, achieving an initial mAP 
 Demonstrated strong potential for accuracy with further training.
 YOLOv7 (2 epochs):
 
-Reached a modest mAP of 0.60, with improvements in loss metrics and recall.
+  - Reached a modest mAP of 0.60, with improvements in loss metrics and recall.
 Precision and F1 scores were lower than YOLOv5, likely due to insufficient training epochs.
 Key Findings:
 
