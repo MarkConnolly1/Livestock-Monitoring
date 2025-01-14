@@ -50,4 +50,36 @@ Once the model is successfully trained, you can apply the trained weights to det
 ![Screenshot 2024-04-16 142958](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/cab8721e-53c1-4b0d-a08e-e003a65beec6)
 ![Screenshot 2024-04-16 143017](https://github.com/MarkConnolly1/Livestock-Monitoring/assets/121117520/2c61d4c5-e1b1-499e-9459-b875d96b29be)
 
+# Results
+The project evaluated the performance of YOLOv5 and YOLOv7 models for livestock monitoring under varying environmental conditions, such as lighting and altitude. Key metrics, including mAP (mean average precision), precision, recall, and F1 score, were used to assess the models.
+
+-Model Comparisons:
+YOLOv5s (30 epochs):
+
+Achieved an mAP of 0.952, indicating high detection accuracy.
+Precision and recall improved significantly during training, with the F1 score peaking at 0.93.
+Demonstrated robust and reliable performance for real-time livestock detection.
+YOLOv5m (5 epochs):
+
+mAP improved from 0.46 (epoch 1) to 0.89 (epoch 5).
+The F1 score reached 0.85, balancing precision and recall effectively.
+Showed quick learning but required fewer resources compared to YOLOv5l.
+
+-YOLOv5l (1 epoch):
+Limited to one epoch due to computational constraints, achieving an initial mAP of 0.53.
+Demonstrated strong potential for accuracy with further training.
+YOLOv7 (2 epochs):
+
+Reached a modest mAP of 0.60, with improvements in loss metrics and recall.
+Precision and F1 scores were lower than YOLOv5, likely due to insufficient training epochs.
+Key Findings:
+
+-YOLOv5 models (s and m) outperformed YOLOv7 in terms of precision and F1 score, making them more suitable for this application under resource constraints.
+YOLOv5s provided the best balance between accuracy and computational efficiency, proving optimal for real-time livestock monitoring.
+
+-Limitations:
+Computational resources limited the training of larger models (e.g., YOLOv5l having a smaller number of epochs) and behavioral analysis integration.
+
+-Extended datasets and additional epochs are needed for further improvements.
+The results validate the feasibility of using YOLO models for livestock monitoring and pave the way for future enhancements in precision agriculture.
 
